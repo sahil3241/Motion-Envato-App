@@ -161,7 +161,7 @@ const Home = () => {
         <div className="row">
           <div className="col-md-4 mb-4" style={{ display: 'flex', gap: '65em'}}>
             <img
-              src={process.env.PUBLIC_URL + '/motionarteffect-logo.png'}
+              src={process.env.PUBLIC_URL + '/MotionArtEffect-logo.png'}
               style={{ paddingTop: '85px', marginLeft: '130.400px', width: '225px' }}
               alt="Motion Art Image"
             />
