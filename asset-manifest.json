@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Motion-Envato-App/static/css/main.eec7bfde.css",
+    "main.js": "/Motion-Envato-App/static/js/main.978baeda.js",
+    "static/js/453.419a5d54.chunk.js": "/Motion-Envato-App/static/js/453.419a5d54.chunk.js",
+    "index.html": "/Motion-Envato-App/index.html",
+    "main.eec7bfde.css.map": "/Motion-Envato-App/static/css/main.eec7bfde.css.map",
+    "main.978baeda.js.map": "/Motion-Envato-App/static/js/main.978baeda.js.map",
+    "453.419a5d54.chunk.js.map": "/Motion-Envato-App/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eec7bfde.css",
+    "static/js/main.978baeda.js"
+  ]
+}
