@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+.gradient-text {
+  background: linear-gradient(90deg, #F87516 0%, #5E11FF 55%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 100% 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* index.css or App.css */
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Sora', 'Outfit';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+.cursor{
+height: 20px;
+width: 20px;
+background-color: white;
+border-radius: 50%;
+position: fixed;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
