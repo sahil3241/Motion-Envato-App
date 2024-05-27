@@ -570,13 +570,13 @@ const Home = () => {
               boxShadow: "1px 1px 2px black",
             }}
           >
-            <div className="card-body">
+            <div className="card-body pt-sm-30px pl-sm-370px pt-md-30px pl-md-370px pt-lg-30px pl-lg-370px pt-xl-30px pl-xl-370px">
               <h2
                 style={{
                   color: "#f0e5fb",
                   fontSize: "1.55em",
-                  paddingTop: "30px",
-                  paddingLeft: "370px",
+                  // paddingTop: "30px",
+                  // paddingLeft: "370px",
                 }}
               >
                 Supported by All Popular Browsers
@@ -586,7 +586,7 @@ const Home = () => {
                   color: "#b2b2ca",
                   paddingTop: "10px",
                   marginBottom: "8px",
-                  paddingLeft: "375px",
+                  // paddingLeft: "375px",
                 }}
                 className="card-text"
               >
@@ -595,23 +595,23 @@ const Home = () => {
               <p
                 style={{
                   color: "#b2b2ca",
-                  paddingBottom: "16px",
-                  paddingLeft: "470px",
+                  // paddingBottom: "16px",
+                  // paddingLeft: "100px",
                 }}
-                className="card-text"
+                className="card-text pb-sm-16px pl-sm-100px pb-md-16px pl-md-100px pb-lg-16px pl-lg-100px pb-xl-16px pl-xl-100px"
               >
                 with all major web browsers.
               </p>
               <img
                 className="card-img-bottom"
                 src={process.env.PUBLIC_URL + "/motionarteffect-img8.png"}
-                style={{ width: "450px", height: "400xp", marginLeft: "370px" }}
+                style={{ width: "450px", height: "400xp" }}
                 alt="Motion Art Image"
               />
             </div>
           </div>
           <div
-            className="col-md-4 mb-4"
+            className="col-md-4 mb-4 "
             style={{ marginTop: "140px", width: "100%" }}
           >
             <h1
